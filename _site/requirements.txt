@@ -1,0 +1,7 @@
+# Python requirements for Jupyter notebooks and ML projects
+pandas
+numpy
+scikit-learn
+matplotlib
+jupyter
+nbconvert
