@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/Machine-Learning/sitemap.xml
+Sitemap: https://sanjanb.github.io/machine-learning/sitemap.xml
