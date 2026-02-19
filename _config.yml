@@ -10,9 +10,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-author: "Your Name"
+author: "Sanjan B M"
 social:
-  name: "Your Name"
+  name: "Sanjan B M"
   links:
     - "https://github.com/sanjanb"
 # google_analytics: "G-XXXXXXXXXX"
