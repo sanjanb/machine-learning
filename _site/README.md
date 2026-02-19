@@ -2,7 +2,7 @@
 
 A comprehensive collection of machine learning concepts, lectures, and hands-on projects. This site serves as a structured learning resource covering fundamental ML algorithms, mathematical foundations, and practical implementations.
 
-**Live Site**: [https://sanjanb.github.io/Machine-Learning/](https://sanjanb.github.io/Machine-Learning/)
+**Live Site**: [https://sanjanb.github.io/machine-learning/](https://sanjanb.github.io/machine-learning/)
 
 ## 🎯 What You'll Find Here
 
