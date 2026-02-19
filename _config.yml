@@ -2,7 +2,7 @@ title: "Machine Learning Notes"
 description: "A comprehensive collection of machine learning concepts, lectures, and hands-on projects."
 remote_theme: tomjoht/documentation-theme-jekyll
 url: "https://sanjanb.github.io"
-baseurl: "/Machine-Learning"
+baseurl: "/machine-learning"
 markdown: kramdown
 highlighter: rouge
 plugins:

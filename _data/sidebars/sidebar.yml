@@ -1,6 +1,6 @@
 entries:
-  - title: CS229 Machine Learning Notes
-    product: CS229
+  - title: Machine Learning Notes
+    product: ML Notes
     folders:
       - title: Introduction
         output: web
@@ -8,7 +8,7 @@ entries:
           - title: Syllabus
             url: /Machine-Learning/intro/syllabus.html
             output: web
-      - title: Lecture Notes
+      - title: Lectures
         output: web
         folderitems:
           - title: Lecture 1 - Introduction
