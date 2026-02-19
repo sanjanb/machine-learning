@@ -1,43 +1,20 @@
 title: "Machine Learning Notes"
-description: "My personal documentation for Machine Learning course"
-theme: null
+description: "A comprehensive collection of machine learning concepts, lectures, and hands-on projects."
+remote_theme: tomjoht/documentation-theme-jekyll
 url: "https://sanjanb.github.io"
 baseurl: "/Machine-Learning"
-
-remote_theme: tomjoht/documentation-theme-jekyll
-
-# Sidebar settings
-sidebar:
-  nav: sidebar
 markdown: kramdown
 highlighter: rouge
-
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-
-# SEO and Analytics
 author: "Your Name"
 social:
   name: "Your Name"
   links:
     - "https://github.com/sanjanb"
-
-# Google Analytics (replace with your tracking ID)
 # google_analytics: "G-XXXXXXXXXX"
-
-# Compression
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: [html, head, body]
-  blanklines: false
-  profile: false
-
-# Cache busting
-sass:
-  style: compressed
-  sourcemap: never
+sidebar:
+  nav: sidebar
