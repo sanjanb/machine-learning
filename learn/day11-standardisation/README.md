@@ -1,9 +1,9 @@
 ## Preparing the data from the dataset to make the model even better, this is called feature engineering
 ### 1. Feature transformation [(To Know More)](https://www.geeksforgeeks.org/machine-learning/feature-transformation-techniques-in-machine-learning/)
-    - missing values imputation
-    - handling categorical
-    - outlier detection
-    - feature scaling
+- missing values imputation
+- handling categorical
+- outlier detection
+- feature scaling
 
 ### 2. Feature construction [(To Know more)](https://medium.com/@lomashbhuva/mastering-feature-construction-and-engineering-in-machine-learning-d6f47056680f)
 ### 3. Feature selection [(To Know more)](https://www.geeksforgeeks.org/machine-learning/feature-selection-techniques-in-machine-learning/)
