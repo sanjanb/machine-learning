@@ -1,10 +1,10 @@
 ## Preparing the data from the dataset to make the model even better, this is called feature engineering
-- Feature transformation
+### - Feature transformation
   - missing values imputation
   - handling categorical
   - outlier detection
   - feature scaling
 
-- Feature construction
-- Feature selection
-- Feature extraction
+### - Feature construction
+### - Feature selection
+### - Feature extraction
