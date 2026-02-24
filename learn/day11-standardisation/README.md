@@ -13,3 +13,10 @@
 - standardisation makes the mean = 0 and standard deviation = 1
 - the process of making the mean = 0 is called mean centering
 - here the formula for standardadisation is (Xi - mean)/ (standard deviation)
+
+### where to apply this technique
+- K-means
+- K-nearest-neighbours
+- Principal component analysis
+- artificial neural network
+- gradient descent
