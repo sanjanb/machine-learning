@@ -5,6 +5,6 @@
     - outlier detection
     - feature scaling
 
-### 2. Feature construction
+### 2. Feature construction [(To Know more)](https://medium.com/@lomashbhuva/mastering-feature-construction-and-engineering-in-machine-learning-d6f47056680f)
 ### 3. Feature selection
 ### 4. Feature extraction
