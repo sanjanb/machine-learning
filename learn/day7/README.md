@@ -1,1 +1,0 @@
-- How to ask basic question to know more about the data
