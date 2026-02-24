@@ -20,3 +20,9 @@
 - Principal component analysis
 - artificial neural network
 - gradient descent
+
+### where not to use this technique
+- decision trees (comparision based algo)
+- Random forest algo
+- gradient boost
+- XGBoost
