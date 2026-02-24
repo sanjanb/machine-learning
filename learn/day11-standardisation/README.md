@@ -7,4 +7,4 @@
 
 ### 2. Feature construction [(To Know more)](https://medium.com/@lomashbhuva/mastering-feature-construction-and-engineering-in-machine-learning-d6f47056680f)
 ### 3. Feature selection [(To Know more)](https://www.geeksforgeeks.org/machine-learning/feature-selection-techniques-in-machine-learning/)
-### 4. Feature extraction
+### 4. Feature extraction [(To Know More)](https://www.geeksforgeeks.org/machine-learning/what-is-feature-extraction/)
