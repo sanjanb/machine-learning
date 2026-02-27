@@ -9,3 +9,7 @@
 >sns.distplot()<br>
 >pd.skew()<br>
 >QQplot()
+
+### Log Transform
+Take the log of every value in the dataset, it will make the dataset to be normally distributed
+> It can be used for right skewed data
