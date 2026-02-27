@@ -7,4 +7,5 @@
 
 ##### How to find if a dataset is normally distributed or now?
 >sns.distplot()<br>
->pd.skew()
+>pd.skew()<br>
+>QQplot()
