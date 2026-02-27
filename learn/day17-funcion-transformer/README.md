@@ -6,5 +6,5 @@
 - square / square root transformer
 
 ##### How to find if a dataset is normally distributed or now?
->sns.distplot()
+>sns.distplot()<br>
 >pd.skew()
