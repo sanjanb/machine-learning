@@ -2,7 +2,6 @@
 
 In many machine learning scenarios, continuous numerical data can be noisy or contain outliers that mislead a model. Transforming these into discrete categories (bins) can often improve model robustness and interpretability.
 
----
 
 ## 1. Discretization (Binning)
 
@@ -14,7 +13,6 @@ In many machine learning scenarios, continuous numerical data can be noisy or co
 * **Improve Value Spread:** It helps in linear models to capture non-linear relationships by treating intervals as separate features.
 * **Data Simplification:** Reduces the complexity of the feature space.
 
----
 
 ## 2. Unsupervised Binning
 
@@ -41,7 +39,6 @@ Uses the K-Means clustering algorithm to find groups in the 1D data.
 
 * **Mechanism:** Each bin center is a centroid found by the algorithm. Observations are assigned to the nearest centroid.
 * **Best for:** Finding "natural" clusters in the data.
-
 ---
 
 ## 3. Supervised Binning
