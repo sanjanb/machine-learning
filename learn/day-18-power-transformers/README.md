@@ -5,4 +5,6 @@ searching, we examine all values of 1. Finally, we choose
 the optimal value (resulting in the best approximation to a
 normal distribution) for your variable.
 
-- yeo-johnson transformers
+- `yeo-johnson transformers:` This transformation is somewhat of an adjustment to the
+Box-Cox transformation, by which we can apply it to
+negative numbers.
