@@ -7,5 +7,13 @@ name for interval.
 Why use Discretization:
 1. To handle Outliers
 2. To improve the value spread
-   
+   - Unsupervised binning
+      - equal width binning
+      - equal frequency binning
+      - k-means binning   
+   - supervised binning
+      - Decision Tree binning
+   - custom binning
+  
+
 - binirization
