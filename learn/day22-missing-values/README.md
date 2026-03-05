@@ -1,0 +1,4 @@
+- remove missing value's row
+- impute them
+    - univariate
+    - multivariate
