@@ -22,8 +22,8 @@ You should only use CCA if the data is **Missing Completely At Random (MCAR)**.
 ---
 
 1. **Check Missing Percentage:** Calculate the `%` of missing values per column.
-2. **Filter Columns:** Select columns where missing data is $< 5\%$. [[16:13](http://www.youtube.com/watch?v=aUnNWZorGmk&t=973)]
+2. **Filter Columns:** Select columns where missing data is $< 5\%$. 
 3. **Perform Drop:** Use `df.dropna(subset=['col1', 'col2'])`.
 4. **Verify Distribution:**
-* **Numerical Data:** Plot Histograms/PDFs of the data *before* and *after* CCA to ensure they overlap. [[18:35](http://www.youtube.com/watch?v=aUnNWZorGmk&t=1115)]
-* **Categorical Data:** Check if the ratio of categories (e.g., % of graduates vs. % of masters) remains the same after dropping rows. [[21:51](http://www.youtube.com/watch?v=aUnNWZorGmk&t=1311)]
+* **Numerical Data:** Plot Histograms/PDFs of the data *before* and *after* CCA to ensure they overlap.
+* **Categorical Data:** Check if the ratio of categories (e.g., % of graduates vs. % of masters) remains the same after dropping rows.
