@@ -1,9 +1,5 @@
 # Handling Missing Categorical Data: Simple Imputation
 
-This tutorial focuses on techniques for filling missing values in categorical columns using simple univariate imputation strategies.
-
----
-
 ## Overview
 
 Categorical data requires different logic than numerical data because mathematical operations like "average" cannot be applied to strings. Instead, we use the most frequent category (Mode) or treat the absence of data as its own category.
