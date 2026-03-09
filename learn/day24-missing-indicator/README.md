@@ -1,9 +1,5 @@
 # Advanced Simple Imputation: Random Sample, Missing Indicators, and GridSearch
 
-This guide covers specialized univariate imputation techniques and how to automatically select the best imputation parameters using Scikit-Learn.
-
----
-
 ## Overview
 
 While Mean, Median, and Mode are standard, advanced simple techniques like **Random Sample Imputation** and **Missing Indicators** can better preserve data distribution or signal "missingness" to the model. Additionally, **GridSearchCV** allows for automated selection of the most effective strategy.
