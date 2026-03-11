@@ -61,5 +61,5 @@ df['column'] = np.where(df['column'] >= upper_limit, upper_limit,
 
 ## Key Takeaway
 
-The Percentile Method is great because it **guarantees** the removal of outliers based on your specific business rules. However, be careful not to set the threshold too high (like 5% or 10%) unless you are certain that much of your data is truly erroneous, as you could be losing valuable information. [[12:13](http://www.youtube.com/watch?v=bcXA4CqRXvM&t=733)]
+The Percentile Method is great because it **guarantees** the removal of outliers based on your specific business rules. However, be careful not to set the threshold too high (like 5% or 10%) unless you are certain that much of your data is truly erroneous, as you could be losing valuable information.
 
