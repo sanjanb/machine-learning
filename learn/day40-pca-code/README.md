@@ -46,8 +46,7 @@ Multiply your original mean-centered data by the top $k$ eigenvectors to project
 
 ## 3. Practical Example: 3D to 2D
 
-The video demonstrates taking a 3D dataset and projecting it onto a 2D plane. By selecting the two eigenvectors with the largest eigenvalues, we create a 2D "snapshot" of the 3D cloud of data that preserves its maximum spread. [[55:22](http://www.youtube.com/watch?v=tXXnxjj2wM4&t=3322)]
-
+The video demonstrates taking a 3D dataset and projecting it onto a 2D plane. By selecting the two eigenvectors with the largest eigenvalues, we create a 2D "snapshot" of the 3D cloud of data that preserves its maximum spread. 
 **Key Takeaway:** The "essence" of the data is maintained because we chose the directions where the data points are most distinguished from one another. 
 
 
