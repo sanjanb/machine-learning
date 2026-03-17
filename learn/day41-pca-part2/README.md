@@ -1,4 +1,4 @@
-# Overview of Principal Component Analysis (PCA) - Part 3
+# Overview of Principal Component Analysis (PCA) - Part 2
 
 This video by CampusX provides a comprehensive practical implementation of PCA using the MNIST dataset, covering coding, visualization, and advanced concepts like explaining variance.
 
