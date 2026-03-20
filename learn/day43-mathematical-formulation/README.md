@@ -1,6 +1,6 @@
 # Simple Linear Regression: Math & Coding from Scratch
 
-This lecture by CampusX dives into the mathematical formulation of Simple Linear Regression (SLR) and demonstrates how to build a custom Linear Regression class in Python from scratch, matching the functionality of Scikit-Learn.
+Here we dives into the mathematical formulation of Simple Linear Regression (SLR) and demonstrates how to build a custom Linear Regression class in Python from scratch, matching the functionality of Scikit-Learn.
 
 
 ## 1. Two Types of Solutions 
