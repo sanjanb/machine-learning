@@ -24,7 +24,7 @@ Also known as the **Coefficient of Determination**, it compares your model's per
 
 
 ### **5. Adjusted R-Squared**
-Standard $R^2$ has a flaw: adding any new feature (even a random/useless one) will usually increase the $R^2$ score [[27:11](http://www.youtube.com/watch?v=Ti7c-Hz7GSM&t=1631)]. Adjusted $R^2$ penalizes the addition of irrelevant features.
+Standard $R^2$ has a flaw: adding any new feature (even a random/useless one) will usually increase the $R^2$ score. Adjusted $R^2$ penalizes the addition of irrelevant features.
 * **Logic:**
     * If you add a **relevant** feature, Adjusted $R^2$ increases 
     * If you add an **irrelevant** feature (e.g., "outside temperature" for predicting salary), Adjusted $R^2$ decreases 
