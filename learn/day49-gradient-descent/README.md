@@ -32,7 +32,7 @@ Nitish outlines the three main variations used in the industry :
 
 
 ### 6. Critical Tips for Success
-* **Feature Scaling:** Gradient Descent works significantly better and faster if your data is scaled (e.g., using Standardization). Without scaling, the "contours" of your error surface become stretched, making it harder for the algorithm to find the center [[01:56:16](http://www.youtube.com/watch?v=ORyfPJypKuU&t=6976)].
+* **Feature Scaling:** Gradient Descent works significantly better and faster if your data is scaled (e.g., using Standardization). Without scaling, the "contours" of your error surface become stretched, making it harder for the algorithm to find the center.
 * **Learning Rate Tuning:** Finding the "Goldilocks" learning rate is the most important part of tuning your model.
 
 
