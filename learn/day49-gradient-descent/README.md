@@ -1,7 +1,7 @@
 ### 1. What is Gradient Descent?
 Gradient Descent is a **first-order iterative optimization algorithm** used to find the **local minimum** of a differentiable function 
 
-In simple terms, while the "Normal Equation" (Ordinary Least Squares) can mathematically solve for the best-fit line in one step, it becomes computationally expensive when dealing with millions of features because it requires inverting a massive matrix. Gradient Descent provides a "cheaper" way to find those same optimal parameters by taking small, iterative steps toward the lowest error [[03:04](http://www.youtube.com/watch?v=ORyfPJypKuU&t=184)].
+In simple terms, while the "Normal Equation" (Ordinary Least Squares) can mathematically solve for the best-fit line in one step, it becomes computationally expensive when dealing with millions of features because it requires inverting a massive matrix. Gradient Descent provides a "cheaper" way to find those same optimal parameters by taking small, iterative steps toward the lowest error .
 
 ### 2. The Intuition: "The Mountain Analogy"
 Imagine you are standing on top of a foggy mountain and need to reach the valley (the minimum error). Since you can't see the bottom, you:
