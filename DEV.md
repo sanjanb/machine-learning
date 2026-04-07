@@ -72,6 +72,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\watch-ipynb-convert.ps1
 ```
 
 ## Helpful notes
+
 - `_site/` is generated — do not commit it. The repo `.gitignore` excludes it already.
 - Keep `Gemfile` and the GitHub Actions workflow Jekyll version in sync.
 - For large binary assets or datasets, consider Git LFS or external storage.
