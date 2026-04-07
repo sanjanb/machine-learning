@@ -1,1 +1,0 @@
-Sitemap: https://sanjanb.github.io/machine-learning/sitemap.xml
