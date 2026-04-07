@@ -19,7 +19,7 @@ jobs:
         run: |
           gem install bundler
           bundle init
-          echo "gem 'jekyll', '~> 4.3'" >> Gemfile
+          echo "gem 'jekyll', '~> 4.4.1'" >> Gemfile
           echo "gem 'html-proofer', '~> 5.0'" >> Gemfile
           bundle install
       - name: Build site
