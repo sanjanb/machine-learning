@@ -12,7 +12,7 @@ In this method, you decide that a certain top and bottom percentage of your data
 * **Lower Limit:** The value at the 1st percentile (only 1% of data is below this).
 
 
-* Any value above the 99th or below the 1st percentile is flagged as an outlier. 
+* Any value above the 99th or below the 1st percentile is flagged as an outlier.
 
 ## Handling Outliers
 
@@ -24,7 +24,7 @@ You simply filter the dataset to keep only the rows within your chosen range (e.
 
 ### 2. Capping (Winsorization)
 
-In the context of the percentile method, capping is formally called **Winsorization**. 
+In the context of the percentile method, capping is formally called **Winsorization**.
 * Instead of deleting the data, you replace the extreme values with the boundary values.
 * **Example:** If the 99th percentile value is 74.8, any value like 76 or 80 is changed to exactly 74.8.
 
@@ -46,7 +46,7 @@ Using `np.where` is the most efficient way to perform this multi-step replacemen
 
 ```python
 df['column'] = np.where(df['column'] >= upper_limit, upper_limit,
-               np.where(df['column'] <= lower_limit, lower_limit, 
+               np.where(df['column'] <= lower_limit, lower_limit,
                df['column']))
 
 ```
@@ -56,10 +56,9 @@ df['column'] = np.where(df['column'] >= upper_limit, upper_limit,
 ## When to Use This Method?
 
 * **Non-Parametric Data:** When your data doesn't follow a normal distribution and the IQR method isn't giving you the results you want.
-* **Extreme Flexibility:** It allows you to be as strict (e.g., 0.5% cutoff) or as loose (e.g., 5% cutoff) as your specific use case requires. 
+* **Extreme Flexibility:** It allows you to be as strict (e.g., 0.5% cutoff) or as loose (e.g., 5% cutoff) as your specific use case requires.
 * **Domain Knowledge:** Useful when you know that a certain percentage of records are likely "noise" or measurement errors.
 
 ## Key Takeaway
 
 The Percentile Method is great because it **guarantees** the removal of outliers based on your specific business rules. However, be careful not to set the threshold too high (like 5% or 10%) unless you are certain that much of your data is truly erroneous, as you could be losing valuable information.
-

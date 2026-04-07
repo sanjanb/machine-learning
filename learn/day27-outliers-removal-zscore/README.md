@@ -18,8 +18,8 @@ In a normal distribution, data points are distributed predictably around the mea
 
 1. **Check Distribution:** Ensure the feature is normally distributed (or close to it).
 2. **Calculate Limits:**
-* **Upper Limit** = $\mu + 3\sigma$ 
-* **Lower Limit** = $\mu - 3\sigma$ 
+* **Upper Limit** = $\mu + 3\sigma$
+* **Lower Limit** = $\mu - 3\sigma$
 
 
 3. **Identify Outliers:** Any value $> \text{Upper Limit}$ or $< \text{Lower Limit}$ is an outlier. [

@@ -16,7 +16,7 @@ In the Titanic dataset, we have two columns: `SibSp` (Siblings/Spouses) and `Par
 * **Categorization:** You can further refine this into a categorical feature like `Family_Type`:
 * `0` (Alone): Family Size = 1
 * `1` (Small): Family Size 2–4
-* `2` (Large): Family Size > 4 
+* `2` (Large): Family Size > 4
 
 
 
@@ -26,7 +26,7 @@ In the Titanic dataset, we have two columns: `SibSp` (Siblings/Spouses) and `Par
 
 ## 2. Feature Splitting
 
-**Feature Splitting** is used when a single column contains multiple pieces of information (non-atomic values). Splitting these into separate columns makes the data "tidy" and easier for the model to process. 
+**Feature Splitting** is used when a single column contains multiple pieces of information (non-atomic values). Splitting these into separate columns makes the data "tidy" and easier for the model to process.
 
 ### Example: Name Titles
 
@@ -34,7 +34,7 @@ In the Titanic data, the `Name` column follows a format like: *"Braund, Mr. Owen
 
 * **The Hidden Data:** The title ("Mr.", "Mrs.", "Miss") contains information about the passenger's gender, social status, and marital status.
 * **The Split:** By using string manipulation (splitting by comma and period), you can extract just the **Title**.
-* **Insight:** Once extracted, you can observe that "Mrs." and "Miss" have significantly higher survival rates (~70–80%) compared to "Mr.". 
+* **Insight:** Once extracted, you can observe that "Mrs." and "Miss" have significantly higher survival rates (~70–80%) compared to "Mr.".
 
 ---
 

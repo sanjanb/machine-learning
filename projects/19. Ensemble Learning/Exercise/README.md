@@ -10,7 +10,3 @@ Download heart disease dataset heart.csv in [Exercise](https://github.com/codeba
 
 
 [Solution Link](https://github.com/codebasics/py/blob/master/ML/19_Bagging/Exercise/bagging_heart_disease_prediction.ipynb)
-
-
-
- 

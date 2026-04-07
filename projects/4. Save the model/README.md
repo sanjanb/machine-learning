@@ -12,7 +12,7 @@ The video demonstrates this using a simple **Linear Regression model** trained t
 
 ***
 
-## 2. Approach 1: Using the `pickle` Module 
+## 2. Approach 1: Using the `pickle` Module
 
 The **`pickle`** module is Python's standard library for **serializing** and **de-serializing** Python objects.
 
@@ -41,7 +41,7 @@ The loaded model (`mp`) can then be used immediately to make predictions [[04:08
 
 ***
 
-## 3. Approach 2: Using the `joblib` Module 
+## 3. Approach 2: Using the `joblib` Module
 
 The **`joblib`** module is a part of the Scikit-learn (sklearn) ecosystem and is often preferred for saving large machine learning models, especially those built on **NumPy arrays** [[04:55](http://www.youtube.com/watch?v=KfnhNlD8WZI&t=295)].
 

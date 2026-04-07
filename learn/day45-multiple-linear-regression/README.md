@@ -1,5 +1,5 @@
 ### **1. What is Multiple Linear Regression?**
-While Simple Linear Regression involves one input feature ($x$) to predict one output ($y$), MLR involves **multiple input features** ($x_1, x_2, ..., x_n$) 
+While Simple Linear Regression involves one input feature ($x$) to predict one output ($y$), MLR involves **multiple input features** ($x_1, x_2, ..., x_n$)
 
 * **Example (SLR):** Using CGPA to predict LPA.
 * **Example (MLR):** Using CGPA, Gender, and IQ to predict LPA.
@@ -12,7 +12,7 @@ The way we visualize regression changes as we add dimensions:
 
 ### **3. The Mathematical Equation**
 The equation for MLR expands the standard line equation ($y = mx + b$):
-* **General Form:** $y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n$ 
+* **General Form:** $y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n$
     * **$\beta_0$ (Intercept):** The value of $y$ when all inputs are zero .
     * **$\beta_1, \beta_2, ...$ (Coefficients/Weights):** These represent the "weight" or importance of each feature. For example, if $\beta_1$ (CGPA weight) is much larger than $\beta_2$ (IQ weight), CGPA is a stronger predictor of the output .
 

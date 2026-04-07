@@ -70,7 +70,7 @@ Sometimes, domain knowledge is better than any algorithm.
 
 Binarization is a special case of discretization where the data is split into exactly **two** categories (0 and 1) based on a threshold.
 
-* **Logic:** 
+* **Logic:**
 $$x' = \begin{cases} 1 & \text{if } x > \text{threshold} \\ 0 & \text{if } x \leq \text{threshold} \end{cases}$$
 
 

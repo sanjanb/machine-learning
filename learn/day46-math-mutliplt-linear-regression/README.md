@@ -4,7 +4,7 @@ To understand Multiple Linear Regression (MLR) in detail, it helps to break it d
 In Simple Linear Regression, you have one input ($x$) and one output ($y$). You plot these on a 2D graph and find the **"Best Fit Line."**
 
 When you move to **Multiple Linear Regression**, you add more dimensions:
-* **2 Inputs ($x_1, x_2$):** Your data points now float in a 3D space (like fireflies in a room). Instead of a line, the "best fit" is a **flat sheet or Plane** that slices through the points. 
+* **2 Inputs ($x_1, x_2$):** Your data points now float in a 3D space (like fireflies in a room). Instead of a line, the "best fit" is a **flat sheet or Plane** that slices through the points.
 * **3+ Inputs:** We can no longer visualize 4D or 5D space, but mathematically, the "plane" becomes a **Hyperplane**. It is a flat surface in higher-dimensional space that tries to stay as close to all data points as possible.
 
 ### 2. The Mathematical Formulation
@@ -35,7 +35,7 @@ While the Normal Equation (OLS) gives the *perfect* answer, it has a major weakn
 * If you have 100 features, the computer handles the inversion instantly.
 * If you have 100,000 features (like in modern AI/LLMs), calculating the inverse of that matrix would take an incredibly long time ($O(n^3)$ complexity).
 
-Because of this, for "Big Data," we use **Gradient Descent**. Instead of calculating the perfect answer in one giant math step, the computer starts with random weights and "walks down the hill" of the error function until it finds the bottom. 
+Because of this, for "Big Data," we use **Gradient Descent**. Instead of calculating the perfect answer in one giant math step, the computer starts with random weights and "walks down the hill" of the error function until it finds the bottom.
 
 ### Summary Table
 | Feature | Simple Linear Regression | Multiple Linear Regression |

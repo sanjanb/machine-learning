@@ -19,7 +19,7 @@ The townships used in the example are **nominal variables**.
 
 The simplest approach is to convert each category into a single integer (e.g., Monroe = 0, West Windsor = 1, Robinsville = 2) [[00:54](http://www.youtube.com/watch?v=9yl6-HEY7_s&t=54)].
 
-### The Flaw 
+### The Flaw
 When you use these numbers in a model like Linear Regression, the model assumes that these numbers have an **order relationship** and **mathematical meaning** [[01:19](http://www.youtube.com/watch?v=9yl6-HEY7_s&t=79)]. For example, the model would incorrectly assume:
 * `Robinsville (2)` is "greater than" `Monroe (0)`.
 * `Monroe (0) + West Windsor (1) = Robinsville (2)`.

@@ -7,13 +7,13 @@ The **Interquartile Range (IQR) method** is the preferred technique for identify
 
 To use this method, you need to understand the components of a **Box Plot**:
 
-* **Q1 (25th Percentile):** 25% of the data falls below this value. 
+* **Q1 (25th Percentile):** 25% of the data falls below this value.
 * **Q3 (75th Percentile):** 75% of the data falls below this value.
-* **IQR:** The range between the 25th and 75th percentiles ($IQR = Q3 - Q1$). 
+* **IQR:** The range between the 25th and 75th percentiles ($IQR = Q3 - Q1$).
 
 ### The IQR Proximity Rule
 
-Based on the IQR, we calculate "whiskers" or boundaries. Any data point outside these boundaries is flagged as an outlier: 
+Based on the IQR, we calculate "whiskers" or boundaries. Any data point outside these boundaries is flagged as an outlier:
 
 * **Upper Limit** = $Q3 + 1.5 \times IQR$
 * **Lower Limit** = $Q1 - 1.5 \times IQR$

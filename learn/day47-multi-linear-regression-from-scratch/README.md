@@ -2,7 +2,7 @@
 In Simple Linear Regression, you have one input ($x$) and one output ($y$). You plot these on a 2D graph and find the **"Best Fit Line."**
 
 When you move to **Multiple Linear Regression**, you add more dimensions:
-* **2 Inputs ($x_1, x_2$):** Your data points now float in a 3D space. Instead of a line, the "best fit" is a flat sheet or **Plane** that slices through the points. 
+* **2 Inputs ($x_1, x_2$):** Your data points now float in a 3D space. Instead of a line, the "best fit" is a flat sheet or **Plane** that slices through the points.
 
 * **3+ Inputs:** We can no longer visualize 4D or 5D space, but mathematically, the "plane" becomes a **Hyperplane**. It is a flat surface in higher-dimensional space that tries to stay as close to all data points as possible.
 

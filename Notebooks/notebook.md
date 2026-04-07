@@ -14,7 +14,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 
-# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using "Save & Run All" 
+# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using "Save & Run All"
 # You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session
 ```
 
@@ -423,7 +423,7 @@ data.head(3)
 
 
 
-the columns Exercises,Equipment, Diet, Recommendation are left to categorical columns only because, they are not used as a input to the model,  they are only used for recommendation part 
+the columns Exercises,Equipment, Diet, Recommendation are left to categorical columns only because, they are not used as a input to the model,  they are only used for recommendation part
 
 ## Step3: Normalization
 
@@ -575,7 +575,7 @@ scaler = StandardScaler()
 data[['Age', 'Height', 'Weight','BMI']] = scaler.fit_transform(data[['Age', 'Height', 'Weight','BMI']])
 ```
 
-The normalized data looks like this 
+The normalized data looks like this
 
 
 ```python
@@ -707,23 +707,23 @@ def get_recommendation(top_n = 3):
     # Normalise the inputs
     num_features = ['Age', 'Height', 'Weight','BMI']
     user_df = pd.DataFrame(user_input, columns = num_features)
-    
+
     user_df[num_features] = scaler.transform(user_df[num_features])
-    
+
     user_input.update(user_df.iloc[0].to_dict())
     user_df.pd.DataFrame([user_input])
-    
+
     # Calculate similarity scores
     user_features = data[['Sex', 'Age', 'Height', 'Weight', 'Hypertension','Diabetes', 'BMI', 'Level', 'Fitness Goal', 'Fitness Type']]
-    
+
     sim_scores = cosine_similarity(user_features, user_df).flatten()
-    
+
     # Retrive Top similar users and get the first recommendation
     similar_user_indices = sim_scores.argsort()[-5:][::-1]
     similar_users = data.iloc[similar_user_indices]
-    
+
     recommendation_1 = similar_users[['Exercises','Diet','Equipment']].mod().iloc[0]
-    
+
     # Stimulate 2 additional recommendation y modifying user input slightly
     stimulated_recommendation = []
     for _ in range(2):
@@ -732,42 +732,42 @@ def get_recommendation(top_n = 3):
         modified_input['Age'] += random.randint(-5, 5)
         modified_input['Wright'] += random.randint(-5, 5)
         modified_input['BMI'] += random.randint(-1, 1)
-        
+
         # Normalise the modified inputs
         modified_user_df = pd.DataFrame([modified_input], columns=num_features)
-        modified_user_df[num_features] = scaler.transform(modified_user_df[num_features]) 
+        modified_user_df[num_features] = scaler.transform(modified_user_df[num_features])
         modfied_input.update(modified_user_df.iloc[0].to_dict())
-        
+
         # Calculating similarity scores for modified Input
         modified_sim_scores = cosine_similarity(user_features, pd.DataFrame([modified_input])).flatten()
         modified_sim_user_indices = modified_sim_scores.argsort()[-5:][::-1]
         modified_sim_users = data.iloc[modified_sim_user_indices]
-    
+
         recommendation = modified_sim_users[['Exercises','Diet','Equipment']].mode().iloc[0]
-    
+
         # Check if the recommendation is already in stimulated rec
         if not any(rec['Exercises'] == recommendation['Exercises'] and rec['Diet'] == recommendation['Diet'] and rec['Equipment'] == recommendation['Equipment'] for rec in simulated_recommendations):
             simulated_recommendations.append(recommendation)
-    
+
      # Display all recommendations
         print("\nRecommended Workout and Diet Plans based on your input:")
         print("\nRecommendation 1 (Exact match):")
         print("EXERCISES:", recommendation_1['Exercises'])
         print("EQUIPMENTS:", recommendation_1['Equipment'])
         print("DIET:", recommendation_1['Diet'])
-        
+
     for idx, rec in enumerate(simulated_recommendations, start=2):
             print(f"\nRecommendation {idx} (Slight variation):")
             print("EXERCISES:", rec['Exercises'])
             print("EQUIPMENTS:", rec['Equipment'])
             print("DIET:", rec['Diet'])
-    
+
     # Collecet feedback for each recommendation
     feedback_matrix = []
     for i in range(len(stimulated_recommendation0 + 1)):
         feedback = int(input("Was recommendation i+1 relevant? (if Yes: 1, No: 0): "))
         feedback_matrix.append(feedback)
-    
+
     # Calculate mean reciprocle rank (MRR)
     relevant_indices = [i + 1 for i, feedback in enumerate(feedback_matrix) if feedback == 1]
     if relevant_idices:

@@ -9,7 +9,7 @@ toc: false
 
 # Machine Learning Notes
 
-Welcome to my personal notes on Machine Learning.  
+Welcome to my personal notes on Machine Learning.
 This site is built using Jekyll and is organized for clean, minimal reading and easy navigation.
 
 ---
