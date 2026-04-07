@@ -1,0 +1,2 @@
+# Ensure notebooks get normalized by nbstripout filter when installed
+*.ipynb filter=nbstripout
