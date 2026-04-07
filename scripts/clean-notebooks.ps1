@@ -19,4 +19,4 @@ Get-ChildItem -Path $WorkspacePath -Filter "*.ipynb" -Recurse | ForEach-Object {
     }
 }
 
-Write-Host "Done. To permanently remove output diffs from git, run:`git add -A; git commit -m 'Strip notebook outputs'`"
+Write-Host 'Done. To permanently remove output diffs from git, run: git add -A; git commit -m "Strip notebook outputs"'
