@@ -1,0 +1,14 @@
+# Ignore Jekyll generated site
+_site/
+
+# Python / Notebook
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Ignore node_modules if present
+node_modules/
