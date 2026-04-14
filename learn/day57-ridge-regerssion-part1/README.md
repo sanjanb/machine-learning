@@ -12,8 +12,7 @@ In standard Linear Regression, the goal is to minimize the **Residual Sum of Squ
 In Ridge Regression, we modify the loss function by adding a **penalty term**.
 $$\text{Loss} = \text{RSS} + \lambda \sum (\text{coefficient})^2$$
 * **$\lambda$ (Lambda):** A hyperparameter that controls the strength of the penalty (often called `alpha` in Scikit-Learn).
-* **Impact of the Penalty:** When we try to minimize this new loss function, the model is forced to keep the coefficients ($m$ or $w$) small. Large coefficients are "penalized," leading to a flatter, less complex line that doesn't overreact to every data point [[11:49](http://www.youtube.com/watch?v=aEow1QoTLo0&t=709)].
-
+* **Impact of the Penalty:** When we try to minimize this new loss function, the model is forced to keep the coefficients ($m$ or $w$) small. Large coefficients are "penalized," leading to a flatter, less complex line that doesn't overreact to every data point.
 
 ### 3. Key Hyperparameter: $\lambda$ (Alpha)
 The value of $\lambda$ determines the behavior of the model:
