@@ -35,4 +35,4 @@ The video demonstrates using the `Ridge` class from `sklearn.linear_model`:
     ```
 4.  **Results:** In the example, the Ridge model with a small alpha performed slightly better on the test set than standard linear regression, showing improved generalization.
 ### Summary
-Ridge Regression is a powerful tool for building robust linear models. By adding a small penalty to the size of the coefficients, it prevents the model from becoming too complex and sensitive to individual training points, effectively balancing the **bias-variance trade-off** [[19:36](http://www.youtube.com/watch?v=aEow1QoTLo0&t=1176)].
+Ridge Regression is a powerful tool for building robust linear models. By adding a small penalty to the size of the coefficients, it prevents the model from becoming too complex and sensitive to individual training points, effectively balancing the **bias-variance trade-off**
