@@ -32,7 +32,4 @@ For more than two classes, the matrix grows (e.g., $3 \times 3$ for Iris, $10 \t
 
 ### 5. Type 1 vs. Type 2 Errors
 * **Type 1 (False Positive):** Telling someone they have a disease when they don't.
-* **Type 2 (False Negative):** Telling someone they are healthy when they actually have a disease. In medical contexts, Type 2 is usually far more dangerous.
-
-
-http://googleusercontent.com/youtube_content/27
+* **Type 2 (False Negative):** Telling someone they are healthy when they actually have a disease. In medical contexts, Type 2 is usually far more dangerous.\
