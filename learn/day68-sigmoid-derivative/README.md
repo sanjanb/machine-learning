@@ -22,4 +22,4 @@ $$\frac{d}{dx}\sigma(x) = \sigma(x) \cdot (1 - \sigma(x))$$
 * **Efficiency:** Because the derivative depends only on the output of the Sigmoid function itself ($\sigma(x)$), it is computationally very "cheap" to calculate during backpropagation or gradient descent.
 * **Gradient Descent:** When updating weights in Logistic Regression, you need this derivative to calculate the slope of the loss function and determine which direction to move the weights to minimize error.
 
-![sigmoid function](/assets/sigmoid-fun.png)
+![sigmoid function](assets/sigmoid-fun.png)
