@@ -1,4 +1,4 @@
-**Softmax Regression**, also known as **Multinomial Logistic Regression**, is an extension of Logistic Regression used for **Multi-class Classification** (predicting one of more than two classes, e.g., Setosa vs. Versicolor vs. Virginica) [[00:27](http://www.youtube.com/watch?v=Z8noL_0M4tw&t=27)].
+**Softmax Regression**, also known as **Multinomial Logistic Regression**, is an extension of Logistic Regression used for **Multi-class Classification** (predicting one of more than two classes, e.g., Setosa vs. Versicolor vs. Virginica).
 
 ### 1. The Softmax Function
 In binary logistic regression, we use the Sigmoid function. In Softmax regression, we use the **Softmax function** to calculate the probability for each class $k$.
