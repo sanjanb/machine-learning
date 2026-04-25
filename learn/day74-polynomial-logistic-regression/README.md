@@ -1,7 +1,7 @@
 Standard **Logistic Regression** is a linear classifier, meaning it assumes the data can be separated by a straight line (or hyperplane in higher dimensions). When data is **non-linear**, a standard model will perform poorly.
 
 ### 1. The Concept: Nonlinear Logistic Regression
-If your data has a circular or complex boundary, a straight line will result in many misclassifications. To fix this, you can use **Polynomial Features** to transform the data into a higher-dimensional space where a linear boundary *can* separate it [[01:23](http://www.youtube.com/watch?v=WnBYW_DX3sM&t=83)].
+If your data has a circular or complex boundary, a straight line will result in many misclassifications. To fix this, you can use **Polynomial Features** to transform the data into a higher-dimensional space where a linear boundary *can* separate it.
 
 
 ### 2. How Polynomial Features Work
