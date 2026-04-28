@@ -32,6 +32,3 @@ While simple and effective, KNN has several significant drawbacks:
 * **Sensitive to Outliers:** Especially with low K values, a single outlier can change the classification of a region.
 * **Imbalanced Data:** If one class dominates the dataset, the majority vote will naturally be biased toward that class.
 * **Lack of Interpretability:** KNN is a "Black Box" model; it can tell you the prediction but not *why* certain features were important.
-
-
-http://googleusercontent.com/youtube_content/20
