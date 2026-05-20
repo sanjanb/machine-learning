@@ -25,7 +25,7 @@ It relies on computing the **Mean (Average)** of all individual predictions. If 
 
 ## 3. The 4 Major Types of Ensemble Techniques
 
-### A. Voting Ensemble
+### A. [Voting Ensemble](https://www.geeksforgeeks.org/machine-learning/voting-in-machine-learning/)
 
 * Built by combining completely **different algorithms** as base learners (e.g., SVM + Logistic Regression + Decision Tree).
 * All models receive the **same dataset** for training.
