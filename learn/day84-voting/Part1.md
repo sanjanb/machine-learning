@@ -6,7 +6,6 @@ A Voting Ensemble is the simplest yet highly effective ensemble learning techniq
 * **Prediction Phase (Classification):** When a new query point ($X_{new}$) is introduced, it is sent to all trained models simultaneously. Each model outputs its own discrete class prediction. The ensemble then aggregates these predictions using a **Majority Count**. For instance, if two models predict `Class 0` and one model predicts `Class 1`, the final output of the voting classifier becomes `Class 0`.
 * **Prediction Phase (Regression):** For continuous targets, instead of using a majority vote, the continuous outputs predicted by each model are aggregated by calculating their **Mean (Average)**.
 
----
 
 ## 2. Two Critical Architectural Assumptions
 
@@ -15,7 +14,6 @@ For a voting classifier to perform better than any single individual model, it m
 1. **Model Independence (Diversity):** The base models must be as independent and structurally distinct from one another as possible. If you use identical models or highly correlated algorithms, they will repeat the exact same errors, offering zero performance improvement.
 2. **The 50% Accuracy Rule:** Every single base model must have an individual predictive accuracy **greater than 50%** (better than a random coin toss). If you use weak models with an accuracy under 50%, the ensemble's collective performance will collapse and become worse than the individual models.
 
----
 
 ## 3. Mathematical Proof: Why Combine 70% Models to Get 78%?
 
@@ -47,7 +45,6 @@ $$\text{Ensemble Accuracy} = 0.343 + 0.147 + 0.147 + 0.147 = \mathbf{0.784 \text
 
 **Conclusion:** Through simple mathematical aggregation, combining three independent 70% accurate models yields a powerful system that is **78.4% accurate**.
 
----
 
 ## 4. The Inverse Proof: Failing the 50% Threshold
 
