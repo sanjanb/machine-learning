@@ -43,7 +43,7 @@ It relies on computing the **Mean (Average)** of all individual predictions. If 
 * Diversity is created through **Bootstrapping**: sampling subsets of the dataset randomly with replacement and feeding a unique subset to each model.
 * **Random Forest** is a highly popular extension of Bagging where the base models are exclusively Decision Trees.
 
-### D. Boosting
+### D. [Boosting](https://www.geeksforgeeks.org/machine-learning/what-is-bagging-classifier/)
 
 * Models are trained **sequentially (in series)** rather than in parallel.
 * The first model trains on the data, identifies its mistakes, and passes that error feedback to the next model.
