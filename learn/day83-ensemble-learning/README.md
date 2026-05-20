@@ -7,7 +7,7 @@ The underlying principle of ensemble learning is that a collection of diverse mo
 2. Using the **same algorithm but training on different subsets of data**.
 3. A hybrid combination of both approaches.
 
----
+
 
 ## 2. Prediction Mechanics
 
@@ -15,13 +15,13 @@ Ensembles combine individual outputs depending on the type of problem:
 
 ### Classification Tasks
 
-It relies on a **Majority Count (Voting)** system. If an ensemble consists of 5 models, and 3 models predict "Class A" while 2 predict "Class B", the final ensemble output is "Class A" [[12:20](http://www.youtube.com/watch?v=bHK1fE_BUms&t=740)].
+It relies on a **Majority Count (Voting)** system. If an ensemble consists of 5 models, and 3 models predict "Class A" while 2 predict "Class B", the final ensemble output is "Class A".
 
 ### Regression Tasks 
 
-It relies on computing the **Mean (Average)** of all individual predictions. If models predict values like $8.1, 3.2, 4.1,$ and $7.5$, the final output is the mathematical average of these numbers [[13:54](http://www.youtube.com/watch?v=bHK1fE_BUms&t=834)].
+It relies on computing the **Mean (Average)** of all individual predictions. If models predict values like $8.1, 3.2, 4.1,$ and $7.5$, the final output is the mathematical average of these numbers.
 
----
+
 
 ## 3. The 4 Major Types of Ensemble Techniques
 
@@ -50,7 +50,7 @@ It relies on computing the **Mean (Average)** of all individual predictions. If 
 * The subsequent model focuses heavily on correcting those specific misclassification.
 * Famous variations include **AdaBoost**, **Gradient Boosting**, and **XGBoost**.
 
----
+
 
 ## 4. Why It Works: Bias-Variance Optimization
 
@@ -59,7 +59,7 @@ Ensemble learning directly addresses the fundamental trade-off in machine learni
 * **High-Variance Models (e.g., Unconstrained Decision Trees):** They heavily overfit training data. Applying **Bagging** maintains their low bias while dramatically lowering their variance.
 * **High-Bias Models (e.g., Linear/Logistic Regression):** They underfit complex patterns. Applying **Boosting** reduces their structural bias, turning them into strong, highly accurate estimators.
 
----
+
 
 ## 5. Summary of Pros & Cons
 
