@@ -97,6 +97,4 @@ vc_weighted = VotingClassifier(estimators=estimators, voting='soft', weights=[3,
 
 ```
 
-The presenter demonstrates that by iteratively grid-searching over various integer weights loops (`weights=[i, j, k]`), you can dynamically shift the underlying decision boundary to find an optimal configuration that yields higher test accuracy [[18:42](http://www.youtube.com/watch?v=pGQnNYdPTvY&t=1122), [20:11](http://www.youtube.com/watch?v=pGQnNYdPTvY&t=1211)].
-
-[Voting Ensemble | Classification | Voting Classifier | Hard Voting Vs Soft Voting | Part 2](https://youtu.be/pGQnNYdPTvY?si=YnZk6XZn5PcVFTlM)
+The presenter demonstrates that by iteratively grid-searching over various integer weights loops (`weights=[i, j, k]`), you can dynamically shift the underlying decision boundary to find an optimal configuration that yields higher test accuracy.
