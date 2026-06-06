@@ -5,7 +5,6 @@ Using an interactive classification coordinate plot, the presenter visualizes ho
 * **Standalone Decision Tree:** Generates rigid, tightly bounded decision boundaries that wrap around localized noise points or outliers, a clear indication of **overfitting** ($R^2 \approx 0.86$).
 * **Bagging Classifier Ensemble:** Creates an aggregated, smoother curve that ignores individual data deviations, dropping variance errors to deliver robust generalization boundaries ($R^2 \approx 0.93$).
 
----
 
 ## 2. Hyperparameters of `BaggingClassifier`
 
@@ -25,7 +24,7 @@ When initializing a `BaggingClassifier` in `scikit-learn`, several structural pa
 * **Random Subspaces:** `max_samples=1.0`, `bootstrap=False`, `max_features=<1.0`, `bootstrap_features=True/False` 
 * **Random Patches:** `max_samples=<1.0`, `bootstrap=True/False`, `max_features=<1.0`, `bootstrap_features=True/False` 
 
----
+
 
 ## 3. Core Implementation Code [[08:37](http://www.youtube.com/watch?v=-1T54G_E-ys&t=517)]
 
@@ -71,7 +70,7 @@ Because standard Bagging uses row sampling **with replacement** (`bootstrap=True
 * **The 37% Statistical Rule:** Mathematically, for a dataset with a large number of rows, approximately **`63.2%`** of unique rows are captured in any single bootstrap sample, leaving roughly **`36.8%`** unsampled. These left-out instances are called **Out-of-Bag (OOB) samples**.
 * **Validation Alternative:** Since these OOB samples were completely hidden from a specific base estimator during its training phase, they can function as an independent, built-in validation set. Setting `oob_score=True` tracks these hidden combinations and estimates overall performance without requiring a separate cross-validation split.
 
----
+
 
 ## 5. Hyperparameter Tuning using Grid Search 
 
