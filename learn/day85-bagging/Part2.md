@@ -92,7 +92,7 @@ print(f"Best Grid Search Score: {search.best_score_:.4f}")
 
 ```
 
-### Empirical Takeaways & Practical Tips [[19:10](http://www.youtube.com/watch?v=-1T54G_E-ys&t=1150)]
+### Empirical Takeaways & Practical Tips
 
 1. **Bagging vs. Pasting:** Bagging typically outperforms Pasting (`bootstrap=False`) because sampling with replacement introduces higher variance diversity between the base estimators, helping to stabilize predictions against noisy data inputs.
 2. **Row Ratios:** Restricting row sizes (`max_samples`) to a range between `0.25` and `0.50` often yields optimal ensemble variance control.
