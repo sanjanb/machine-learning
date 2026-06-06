@@ -26,7 +26,7 @@ When initializing a `BaggingClassifier` in `scikit-learn`, several structural pa
 
 
 
-## 3. Core Implementation Code [[08:37](http://www.youtube.com/watch?v=-1T54G_E-ys&t=517)]
+## 3. Core Implementation Code 
 
 ```python
 from sklearn.datasets import make_classification
