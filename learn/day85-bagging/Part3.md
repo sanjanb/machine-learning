@@ -11,7 +11,7 @@ $$\hat{y}_{ensemble} = \frac{1}{N} \sum_{i=1}^{N} M_i(X)$$
 
 Every subset alternative—**Bagging, Pasting, Random Subspaces, and Random Patches**—applies to continuous estimation problems just as it does to discrete classifiers.
 
----
+
 
 ## 2. Interactive Prediction Line Visualization
 
@@ -20,7 +20,7 @@ An interactive curve utility highlights why a Bagging Regressor stabilizes local
 * **Standalone Decision Tree Regressor:** The single-tree estimation frontier generates sharp, disjointed "steps." It displays high variance by matching training points perfectly (overfitting), tracking anomalies, and creating rigid intervals.
 * **Bagging Regressor:** Averaging predictions across multiple bootsrapped decision trees smooths out these jagged steps into a continuous curve. This reduces high variance while maintaining low bias, allowing the meta-model to capture the true global distribution trend instead of tracking localized noise.
 
----
+
 
 ## 3. Structural Implementation Code
 
@@ -60,7 +60,7 @@ print(f"Vanilla Bagging Regressor R2: {r2_score(y_test, bag_reg.predict(X_test))
 
 ```
 
----
+
 
 ## 4. Hyperparameter Tuning using Grid Search
 
