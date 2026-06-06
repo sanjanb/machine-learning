@@ -16,7 +16,6 @@ Once all independent base models are trained on their respective bootstrap sampl
 * **For Classification:** A query point $X_{new}$ is fed into all base estimators. Each model casts a discrete label prediction, and the final ensemble prediction is chosen via **Majority Voting (Mode)**.
 * **For Regression:** The ensemble aggregates the individual continuous outputs by calculating their mathematical **Mean (Average)**.
 
----
 
 ## 2. Why and When Bagging Works: The Bias-Variance Tradeoff
 
@@ -25,7 +24,6 @@ The mathematical justification for Bagging relies directly on resolving the **Bi
 * **High Variance, Low Bias Models:** Algorithms like fully grown, deep Decision Trees (`max_depth=None`) have **low bias** because they map training data with near-perfect accuracy. However, they suffer from **high variance**—meaning their structural boundaries fluctuate wildly if the underlying training data is tweaked even slightly, leading to severe overfitting on test datasets.
 * **Variance Reduction Mechanism:** By splitting the training data across $N$ unique bootstrap subsets, extreme variance fluctuations are partitioned. If an outlier pattern or noise row exists in the data, it will only impact a fraction of the base estimators. When the outputs are aggregated via averaging or voting, those localized errors are smoothed out, effectively dropping the meta-model's overall variance while maintaining the low-bias benefits of the base estimators.
 
----
 
 ## 3. Four Core Variants of Bagging
 
