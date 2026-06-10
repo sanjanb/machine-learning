@@ -40,7 +40,6 @@ Since Rows 3 and 5 were incorrect, their weights are added together:
 
 $$\epsilon_1 = w_3 + w_5 = 0.20 + 0.20 = \mathbf{0.40}$$
 
----
 
 ## **3. Determining the Model's Voting Power ($\alpha$)**
 
